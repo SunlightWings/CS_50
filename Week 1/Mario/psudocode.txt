@@ -1,0 +1,9 @@
+Do
+    Get input number from the user
+    Repeat until the number is [1,8]. ie. between 1 and 8 including 1 and 8.
+Loop i from 1 to number
+    Loop j from (number-i) to 1  (more to less)
+        Print " "
+    loop j from 1 to i             (less to more)
+        Print '#"
+    print "\n" to start a new line
