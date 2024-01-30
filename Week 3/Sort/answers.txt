@@ -1,0 +1,19 @@
+sort1 uses: Bubble sort
+
+How do you know?: O(n^2): Slowest to sort random and reversed, Omega(n): slightly better than selection sort in (best case) sorted numbers.
+
+sort2 uses: Merge Sort
+
+How do you know?: O(nlogn): Fastest to sort for random, reverse and sorted numbers.
+
+sort3 uses: Selection sort
+
+How do you know?: O(n^2): It is slightly faster than bubble sort, slower than merge sort. Omega(n^2): In best case scenario (sorted numbers), it is slower than bubble sort.
+
+
+
+// Observation:
+
+// algorithm1 : (random) = 0.168, 0.249, 6.425,   (reversed) = 0.081, 0.254, 5.969,  (sorted) = 0.047, 0.075, 1.678
+// algorithm2 : (random) = 0.059, 0.066, 1.657,   (reversed) = 0.038, 0.118, 1.197,  (sorted) = 0.033, 0.064, 1.293
+// algorithm3 : (random) = 0.107, 0.122, 2.855,   (reversed) = 0.060, 0.146, 2.843,  (sorted) = 0.047, 0.155, 2.928
